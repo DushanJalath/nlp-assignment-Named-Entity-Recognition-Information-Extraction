@@ -1,5 +1,5 @@
 from text_preprocessing_pos_tagging import TextPreprocessor
-
+from EntityExtractor import  EntityExtractor
 
 def main():
     """
