@@ -1,3 +1,12 @@
+import nltk
+from nltk import ne_chunk, pos_tag, word_tokenize
+from nltk.chunk import tree2conlltags
+from collections import defaultdict, Counter
+
+# Download required NLTK resources
+nltk.download('maxent_ne_chunker', quiet=True)
+nltk.download('words', quiet=True)
+
 class EntityExtractor:
     """
     Extracts named entities (Persons, Organizations, Locations)
