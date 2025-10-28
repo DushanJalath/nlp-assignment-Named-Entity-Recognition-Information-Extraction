@@ -1,4 +1,5 @@
 from text_preprocessing_pos_tagging import TextPreprocessor
+from relation_extractor import RelationExtractorVisualizer
 
 
 def main():
