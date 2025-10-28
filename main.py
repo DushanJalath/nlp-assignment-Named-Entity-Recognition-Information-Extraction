@@ -1,4 +1,7 @@
 from text_preprocessing_pos_tagging import TextPreprocessor
+
+from EntityExtractor import  EntityExtractor
+
 from relation_extractor import RelationExtractorVisualizer
 
 
